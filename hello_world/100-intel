@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Get the name of the C file from the command line argument
+CFILE="$1"
+
+# Check if a file was provided
+if [[ -z "$CFILE" ]]; then
+  echo "Usage: $0 <C file>"
+  exit 1
+fi
+
+# Check if the file exists
+if [[ ! -f "$CFILE" ]]; then
+  echo "File not found: $CFILE"
+  exit 1
+fi
+
+# Create the output file name by replacing .c extension with .s extension
+OUTFILE="${CFILE%.c}.s"
+
+# Use GCC to compile the C file to assembly code in Intel syntax
+gcc -S -masm=intel "$CFILE" -o "$OUTFILE"
+
+# Print success message
+echo "Assembly code generated in $OUTFILE"
+
+
