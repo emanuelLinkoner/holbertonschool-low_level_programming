@@ -2,7 +2,7 @@
 
 #include <time.h>
 
-#include <studio.h>
+#include <stdio.h>
 
 /**
  * main - Prints a text accirding number
