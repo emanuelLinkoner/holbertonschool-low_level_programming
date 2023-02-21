@@ -9,7 +9,7 @@
  * Return: Always (Success)
  */
 
-int main(viid)
+int main(void)
 {
 	int n, lastd;
 		srand(time(0));
