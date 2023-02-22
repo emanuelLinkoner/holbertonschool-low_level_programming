@@ -1,8 +1,10 @@
-#include <main.h>
-
+#include <stdio.h>
 /**
- * main - Entry point
- * Return: Always 0
+ * main - starting my program
+ * int ch - introduce ch
+ * for = for every ch <= print body
+ *
+ * Return: always 0
  */
 
 int main(void)
