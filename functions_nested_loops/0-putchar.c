@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 /**
  * main - starting my program
  * int ch - introduce ch
