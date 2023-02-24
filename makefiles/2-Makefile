@@ -3,7 +3,6 @@ SCR = main.c school.c
 OBJ = main.o school.o
 Name = school
 
-#variables2
 
 all: $(SCR) $(OBJ)
 	$(CC)
