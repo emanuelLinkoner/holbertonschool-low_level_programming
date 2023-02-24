@@ -4,5 +4,5 @@ SRC = main.c school.c
 
 #make files
 
-all: $(CC) $(SRC)
-	gcc -0 $(CC) $(SRC)
+all: $(SRC)
+	$(CC)
