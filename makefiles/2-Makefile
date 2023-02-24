@@ -7,7 +7,7 @@ Name = school
 all: $(SRC) $(OBJ) $(Name)
 	$(CC) 
 
-main.o: $(SRC)
-	$(CC)
+main.o: $(CC)
+	
 
-school.o: $(SRC)
+school.o: $(CC)
