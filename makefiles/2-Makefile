@@ -8,6 +8,8 @@ all: $(SRC) $(OBJ) $(Name)
 	$(CC) 
 
 main.o: main.c
+	$(CC)
 	
 
 school.o: school.c
+	$(CC)
