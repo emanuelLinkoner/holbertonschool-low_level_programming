@@ -3,7 +3,7 @@
 /**
  * string_toupper - Changes all lowercase letters
  * of a string to uppercase.
- * @str:The string to be changed.
+ * @str: The string to be changed.
  * Return: A pointer to the changed string.
  */
 
@@ -18,5 +18,5 @@ if (str[index] >= 'a' && str[index] <= 'z')
 str[index] -= 32;
 index++;
 }
-return (str:
+return (str);
 }
